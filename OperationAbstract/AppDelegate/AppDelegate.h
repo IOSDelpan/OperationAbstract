@@ -1,8 +1,8 @@
 //
 //  AppDelegate.h
-//  OperationAbstract
+//  ProjectLaunched
 //
-//  Created by Delpan on 2017/11/14.
+//  Created by Delpan on 2017/11/7.
 //  Copyright © 2017年 Delpan. All rights reserved.
 //
 
@@ -11,7 +11,6 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
 
 @end
 
