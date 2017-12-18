@@ -21,13 +21,13 @@ static dispatch_queue_t _WBOperationDispatchManagerSerialQueue(void)
     return queue;
 }
 
-@interface NSOperation (WBOperationManagerTemplate)
+@interface NSOperation (_WBOperationManagerTemplate)
 
 + (void)_asyncStartOperation:(NSOperation *)newOperation;
 
 @end
 
-@implementation NSOperation (WBOperationManagerTemplate)
+@implementation NSOperation (_WBOperationManagerTemplate)
 
 #pragma mark - Template Method
 + (void)_asyncStartOperation:(NSOperation *)newOperation
